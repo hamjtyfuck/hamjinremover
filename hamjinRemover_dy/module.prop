@@ -5,4 +5,4 @@ versionCode=230929001
 author=world.execute(darker); coolapk@darker_fun_ && Tangtang github@Tangtangchannel && qcm222 github@qcm222
 description=用于在检测到系统中安装的某个模块作者为hamjty时，进行删除操作
 minMagisk=24300
-updateJson=null
+updateJson=https://github.com/hamjtyfuck/hamjinremover/raw/main/magisk_hamjinRemover/update.json
