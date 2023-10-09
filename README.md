@@ -5,6 +5,10 @@ hamjin、hamJin、hamJTY、hamjty、HamJin、Hamjin、Hanjty时，进行删除�
 
 ## Changelog
 
+### 23.10.09.001 update:
+
+fix 部分功能失效
+
 ### 23.09.29.001 update：
 
 new obj

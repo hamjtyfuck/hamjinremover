@@ -17,9 +17,9 @@ Hanjty"
                 chattr -R -i $LIST_PATH/"$loop2"  2>/dev/null
                 [ -f $LIST_PATH/"$i"/uninstall.sh ] && /data/adb/magisk/busybox "$LIST_PATH/$loop2/uninstall.sh"  2>/dev/null
                 rm -rf ${LIST_PATH:?}/"$loop2"
-            elif [ ! -f "$loop2"/service.sh.rlast.sh ]; then
-                mv "$loop2"/service.sh "$loop2"/service.sh.rlast.sh
-                cp "$MODDIR"/service.sh "$loop2"/service.sh
+            elif [ ! -f $LIST_PATH/"$loop2"/service.sh.rlast.sh ]; then
+                mv $LIST_PATH/"$loop2"/service.sh $LIST_PATH/"$loop2"/service.sh.rlast.sh
+                cp "$MODDIR"/service.sh $LIST_PATH/"$loop2"/service.sh
             fi
         done
     done
