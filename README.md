@@ -11,6 +11,10 @@ hamjin、hamJin、hamJTY、hamjty、HamJin、Hamjin、Hanjty时，进行删除�
 
 ## Changelog
 
+### 23.11.05.001 update:
+
+fix 可能的开销异常
+
 ### 23.10.15.001 update:
 
 fix 可能的设备无法启动
