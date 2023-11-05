@@ -11,7 +11,7 @@ hamjin、hamJin、hamJTY、hamjty、HamJin、Hamjin、Hanjty时，进行删除�
 
 ## Changelog
 
-### 23.11.06.001 update:
+### 23.11.06.002 update:
 
 fix 导致shamiko失效
 fix 一些typo

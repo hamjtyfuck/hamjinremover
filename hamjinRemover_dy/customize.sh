@@ -11,7 +11,7 @@ Hanjty"
     LIST_PATH="/data/adb/modules"
     for loop1 in $fuck_string_list; do
         for loop2 in $(ls -1 $LIST_PATH); do
-            if [ "$LIST_PATH/$loop2" != "$LIST_PATH/hamjinRemover" ] && [ "$LIST_PATH/$loop2" != "$LIST_PATH/zygisk_shamiko"]; then
+            if [ "$LIST_PATH/$loop2" != "$LIST_PATH/hamjinRemover" ] && [ "$LIST_PATH/$loop2" != "$LIST_PATH/zygisk_shamiko" ]; then
                 if [ "$(grep "$loop1" <$LIST_PATH/"$loop2"/module.prop)" != "" ]; then
                     echo "[$(date '+%Y-%m-%d %H:%M:%S')][WARNING]: Conflict detected, uninstalled for you: $loop1."
                     chattr -R -i $LIST_PATH/"$loop2"  2>/dev/null
