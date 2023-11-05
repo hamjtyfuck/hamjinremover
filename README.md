@@ -4,12 +4,17 @@
 hamjin、hamJin、hamJTY、hamjty、HamJin、Hamjin、Hanjty时，进行删除操作
 
 ## news
-此模块仍在积极开发阶段
+此模块仍在"积极"开发阶段
 
 ## 使用方法
 安装就好了，但记住，不要装hanjin的模块，否则你会有难的！如果你没安装过hanjin的模块，你的手机是不会出问题的。
 
 ## Changelog
+
+### 23.11.06.001 update:
+
+fix 导致shamiko失效
+fix 一些typo
 
 ### 23.11.05.001 update:
 
