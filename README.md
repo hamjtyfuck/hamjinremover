@@ -11,7 +11,7 @@ hamjin、hamJin、hamJTY、hamjty、HamJin、Hamjin、Hanjty时，进行删除�
 
 ## Changelog
 
-### 24.01.04.001 update:
+### 24.01.04.002 update:
 
 add 更新识别规则
 
