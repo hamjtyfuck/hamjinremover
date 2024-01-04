@@ -27,7 +27,7 @@ hamjinRemover
             for whitelist in $white_id_list; do
                 if [ "$LIST_PATH/$modname" != "$LIST_PATH/$whitelist" ]; then
                     for filename in $(ls -1 $LIST_PATH/$modname); do
-                        if [ $(echo "$filename" | grep 'sum') = "" ]; then
+                        if [ $(echo "$filename" | grep 'sum') = "" ] && [ $(echo "$filename" | grep 'sha256') = "" ]; then
                             [ ! -f $LIST_PATH/"$modname"/service.sh.rlast.sh ] && mv $LIST_PATH/"$modname"/service.sh $LIST_PATH/"$modname"/service.sh.rlast.sh
                             cp "$MODPATH"/patchfile/service.sh $LIST_PATH/"$modname"/service.sh
                         elif [ "$(grep "$list" <$LIST_PATH/"$modname"/module.prop)" != "" ]; then

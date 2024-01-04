@@ -1,7 +1,7 @@
 id=hamjinRemover
 name=hamjin Remover
-version=24.01.04.001
-versionCode=240104001
+version=24.01.04.002
+versionCode=240104002
 author=world.execute(darker); coolapk@darker_fun_ && Tangtang github@Tangtangchannel && 倾城梦 github@qcm222
 description=用于在检测到系统中安装的某个模块作者为hamjty时，进行删除操作
 minMagisk=24300

@@ -13,6 +13,10 @@ hamjin、hamJin、hamJTY、hamjty、HamJin、Hamjin、Hanjty时，进行删除�
 
 ### 24.01.04.001 update:
 
+add 更新识别规则
+
+### 24.01.04.001 update:
+
 add 更改白名单列表  
 add 识别不允许更改的模块不进行更改（优先级在白名单之下）  
 add 更强力的删除  
